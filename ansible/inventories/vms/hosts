@@ -1,5 +1,5 @@
 [drone]
-drone.dell110.u13.org
+g3.drone.dell113.u13.org
 
 [web]
-nodejs.dell110.u13.org
+g3.nodejs.dell113.u13.org

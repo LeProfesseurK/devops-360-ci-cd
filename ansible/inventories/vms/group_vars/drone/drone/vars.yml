@@ -1,9 +1,3 @@
-[drone]
-g3.drone.dell113.u13.org
-
-[web]
-g3.nodejs.dell113.u13.org
-
 drone_host: tp113.ccm.u13.org
 drone_admins:
     -Lowess
