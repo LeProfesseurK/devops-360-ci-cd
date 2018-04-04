@@ -2,12 +2,13 @@
 libvirt_dns_server: 172.16.113.254
 libvirt_ip_prefix: '172.16.113'
 libvirt_dns_zone: dell113.u13.org
+
 libvirt_vms:
-  drone:
+  g3.drone:
     cpu: 1
     mem: 768
     ip: "{{ libvirt_ip_prefix }}.66"
-  nodejs:
+  g3.nodejs:
     cpu: 1
     mem: 768
     ip: "{{ libvirt_ip_prefix }}.67"
