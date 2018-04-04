@@ -3,3 +3,13 @@ g3.drone.dell113.u13.org
 
 [web]
 g3.nodejs.dell113.u13.org
+
+drone_host: tp113.ccm.u13.org
+drone_admins:
+    -Lowess
+    -LeProfesseurK
+    -Ninconji
+
+# secret stored in vault.yml
+drone_oauth_client: "{{ vault_drone_oauth_client }}"
+drone_oauth_secret: "{{ vault_drone_oauth_secret }}"
